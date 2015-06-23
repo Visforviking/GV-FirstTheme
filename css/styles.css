@@ -1,0 +1,33 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+	background-image: url('../images/hero-1.jpg');
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 130px;
+	background-size: cover;
+}
+
+.btn-custom {
+	padding: 1em 1.5em;
+	border: 2px solid #000;
+	margin-right: 15px;
+}
+
+.btn-custom2 {
+	padding: 1em 1.5em;
+	border: 2px solid #fff;
+	color: #000;
+}
+
+@media (max-width: 1200px) {
+	.hero {
+		min-height:  100%;
+	}
+}
+
+a {
+	color: #fff;
+}
